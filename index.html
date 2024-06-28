@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 2em 0;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 1em;
+        }
+        .project img {
+            width: 100%;
+            max-width: 300px;
+            margin-right: 1em;
+        }
+        .project div {
+            flex: 1;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am [Your Name], a web developer with a passion for creating beautiful and functional websites. Welcome to my portfolio where you can see my latest projects and learn more about me.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div>
+                    <h3>Project 1</h3>
+                    <p>This is a description of project 1. It's a web application that helps users manage their tasks efficiently.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div>
+                    <h3>Project 2</h3>
+                    <p>This is a description of project 2. It's a responsive website designed for a local business.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:yourname@example.com">yourname@example.com</a> or connect with me on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
