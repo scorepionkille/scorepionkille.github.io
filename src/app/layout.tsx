@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "th_TH",
-    url: "https://adisorn.github.io",
+    url: "https://adisornwongtip.github.io",
     title: "Adisorn Wongtip | Full Stack Developer",
     description:
       "Full Stack Developer ประสบการณ์กว่า 3 ปี เชี่ยวชาญ React, Next.js, Node.js, TypeScript",

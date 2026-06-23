@@ -89,7 +89,7 @@ export const personalInfo: PersonalInfo = {
   avatarUrl: "/avatar.jpg",
   resumeUrl: "/resume.pdf",
   socials: [
-    { name: "GitHub", url: "https://github.com/scorepionkille", icon: "github" },
+    { name: "GitHub", url: "https://github.com/adisornwongtip", icon: "github" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/adisornwongtip/", icon: "linkedin" },
     { name: "Email", url: "mailto:adisornwongtip@gmail.com", icon: "email" },
   ],
