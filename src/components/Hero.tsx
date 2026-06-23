@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { personalInfo } from "@/data/data";
 
@@ -40,12 +41,15 @@ export default function Hero() {
         <div className="fade-in mb-8">
           <div className="avatar-ring">
             <div
-              className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden z-10 flex items-center justify-center"
-              style={{ background: "linear-gradient(135deg, #6c5ce7, #00d2ff)" }}
+              className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden z-10 flex items-center justify-center bg-zinc-800"
             >
-              <span className="text-5xl md:text-6xl text-white font-bold" style={{ fontFamily: "var(--font-heading)" }}>
-                {personalInfo.nameEn.charAt(0)}
-              </span>
+              <Image
+                src={personalInfo.avatarUrl}
+                alt={`${personalInfo.nameEn} Avatar`}
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
