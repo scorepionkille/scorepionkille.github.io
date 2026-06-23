@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Adisorn Smith | Full Stack Developer Portfolio",
+  title: "Adisorn Wongtip | Full Stack Developer Portfolio",
   description:
     "Full Stack Developer ประสบการณ์กว่า 5 ปี เชี่ยวชาญ React, Next.js, Node.js, TypeScript พัฒนา Web Application ที่มีประสิทธิภาพ",
   keywords: [

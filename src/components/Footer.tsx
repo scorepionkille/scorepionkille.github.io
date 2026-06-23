@@ -48,7 +48,7 @@ export default function Footer() {
               className="text-sm"
               style={{ color: "var(--text-tertiary)" }}
             >
-              © {new Date().getFullYear()} Adisorn Smith. Built with{" "}
+              © {new Date().getFullYear()} Adisorn Wongtip. Built with{" "}
               <span style={{ color: "#6c5ce7" }}>Next.js</span> &{" "}
               <span style={{ color: "#00d2ff" }}>TailwindCSS</span>
             </p>
