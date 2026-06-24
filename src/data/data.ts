@@ -87,7 +87,7 @@ export const personalInfo: PersonalInfo = {
   location: "Bangkok, Thailand",
   bio: "Full Stack Developer ประสบการณ์กว่า 3+ ปี มีความเชี่ยวชาญด้านการพัฒนา Web Application ชอบเรียนรู้เทคโนโลยีใหม่ๆ และแก้ปัญหาที่ซับซ้อน เน้นการเขียนโค้ดที่สะอาด มีประสิทธิภาพ และ maintainable พร้อมทำงานร่วมกับทีมเพื่อสร้างสรรค์ผลิตภัณฑ์ที่มีคุณภาพ และมีประสบการณ์ด้าน IT support ทั้งหมด 5 ปี",
   avatarUrl: "/my-profile.jpg",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/CV_Adisorn_Wongtip.pdf",
   socials: [
     { name: "GitHub", url: "https://github.com/adisornwongtip", icon: "github" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/adisornwongtip/", icon: "linkedin" },
