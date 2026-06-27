@@ -155,16 +155,19 @@ export const experiences: Experience[] = [
   {
     id: 4,
     company: "บริษัท แซปบีไอทีโซลูชั่นส์ จำกัด",
-    role: "บริหาร และ ดูแลเทคโนโลยี",
+    role: "บริหาร และ ดูแลด้านเทคโนโลยี",
     period: "ต.ค. 2563 - ม.ค. 2566",
     location: "Bangkok, Thailand",
     description: "บริหารจัดการด้านเทคโนโลยีและการติดตั้งอุปกรณ์อิเล็กทรอนิกส์และจอ LED ให้กับภาครัฐและเอกชน",
     achievements: [
       "ดำเนินกิจการค้า นำเข้า ส่งออก ซื้อ จำหน่าย ให้บริการติดตั้ง ซ่อมบำรุง ป้ายโฆษณาอิเล็กทรอนิกส์ โดยเน้นการซ่อมบำรุงจอ LED เป็นหลัก",
       "บริหารบุคลากร จัดสรรงบประมาณ และตรวจเช็คบัญชีของทีม",
+      "ออกแบบและติดตั้งระบบ IT Support ให้กับภาครัฐและเอกชน",
+      "พัฒนาเว็บไซต์และ เพจ Facebook ของบริษัทเพื่อโปรโมทสินค้าและบริการของบริษัท",
       "พัฒนาระบบคลังสินค้าภายในระบบบริษัท"
     ],
-    techStack: ["LED Display", "IT Management", "Inventory Management", "Budgeting"]
+    techStack: ["LED Display", "IT Management", "Inventory Management", "Budgeting",
+      "HTML", "CSS", "JavaScript", "jQuery", "Ajax", "Bootstrap4,5", "MySQL", "Facebook Page"]
   },
   {
     id: 5,
@@ -345,40 +348,39 @@ export const skillCategories: SkillCategory[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Forex Multi-Agent AI Trading System",
     description:
-      "แพลตฟอร์ม E-Commerce ครบวงจร รองรับ Multi-vendor, Payment gateway, Real-time inventory tracking",
-    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Docker"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/adisorn/ecommerce",
+      "ระบบ AI Trading อัจฉริยะแบบ 7 Agent ทำงานร่วมกัน วิเคราะห์ข้อมูลตลาดทางเทคนิค (Market Analysis), ตรวจสอบข่าวสารวิเคราะห์ Sentiment (News Sentiment), ส่งสัญญาณซื้อขาย (Signal), ควบคุมความเสี่ยง (Risk Management), ส่งคำสั่งซื้อขายอัตโนมัติผ่าน MetaTrader 5 (Execution) และแสดงผลสรุปรายงานกราฟต่างๆ ผ่าน Streamlit Dashboard",
+    techStack: ["Python", "LangGraph", "MetaTrader 5", "FinBERT", "Redis", "Streamlit", "Ollama", "OpenAI"],
+    githubUrl: "https://github.com/adisornwongtip/AutoTrading",
     featured: true,
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "PDF Extract API",
     description:
-      "แอปจัดการ Task แบบ Kanban Board พร้อมระบบ Real-time collaboration, Drag & Drop, และ Notifications",
-    techStack: ["React", "Node.js", "Socket.io", "MongoDB"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/adisorn/taskmanager",
+      "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
+    techStack: ["ASP.NET Core", ".NET 10", "React 19", "TypeScript", "Vite", "SQLite", "OpenAI GPT-4o", "Google Gemini 2.5 Flash", "Docker"],
+    githubUrl: "https://github.com/adisornwongtip/PDFAutoToAPI",
     featured: true,
   },
   {
     id: 3,
-    title: "AI Chat Assistant",
+    title: "Room Rental System (RRS)",
     description:
-      "Chatbot อัจฉริยะที่ใช้ AI ตอบคำถามเกี่ยวกับผลิตภัณฑ์และบริการ รองรับภาษาไทยและอังกฤษ",
-    techStack: ["Python", "FastAPI", "OpenAI", "React"],
-    githubUrl: "https://github.com/adisorn/ai-chat",
+      "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
+    techStack: ["Next.js 14", "ASP.NET Core 8", "Entity Framework", "SQL Server", "LINE Messaging API", "Tailwind CSS"],
+    githubUrl: "https://github.com/adisornwongtip/roomrentalsystem",
     featured: true,
   },
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "Daily Task Management System",
     description:
-      "เว็บไซต์แสดงผลงานส่วนตัว สร้างด้วย Next.js + TailwindCSS พร้อม Dark Mode และ Smooth Animations",
-    techStack: ["Next.js", "TailwindCSS", "TypeScript"],
-    githubUrl: "https://github.com/adisorn/portfolio",
+      "เว็บแอปพลิเคชันสำหรับมอบหมายและติดตามงานประจำวันของทีมงาน พร้อมระบบลงชื่อเข้าใช้งาน (NextAuth) และระบบจัดการเก็บข้อมูลด้วยฐานข้อมูลผ่าน Prisma ORM",
+    techStack: ["Next.js", "Prisma", "PostgreSQL", "NextAuth.js", "TypeScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/adisornwongtip/AutoJob",
+    featured: false,
   },
 ];
 
