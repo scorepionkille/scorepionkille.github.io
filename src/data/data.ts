@@ -348,15 +348,24 @@ export const skillCategories: SkillCategory[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Forex Multi-Agent AI Trading System",
+    title: "Local AI Ollama & Open WebUI Setup",
     description:
-      "ระบบ AI Trading อัจฉริยะแบบ 7 Agent ทำงานร่วมกัน วิเคราะห์ข้อมูลตลาดทางเทคนิค (Market Analysis), ตรวจสอบข่าวสารวิเคราะห์ Sentiment (News Sentiment), ส่งสัญญาณซื้อขาย (Signal), ควบคุมความเสี่ยง (Risk Management), ส่งคำสั่งซื้อขายอัตโนมัติผ่าน MetaTrader 5 (Execution) และแสดงผลสรุปรายงานกราฟต่างๆ ผ่าน Streamlit Dashboard",
-    techStack: ["Python", "LangGraph", "MetaTrader 5", "FinBERT", "Redis", "Streamlit", "Ollama", "OpenAI"],
-    githubUrl: "https://github.com/adisornwongtip/AutoTrading",
+      "การจัดสภาพแวดล้อมและติดตั้งระบบปัญญาประดิษฐ์ใช้งานเองภายในเครื่องแบบ Local (Local LLM) ด้วย Ollama โดยมีการทดสอบรันและเรียกใช้งานโมเดลยอดนิยม เช่น Qwen3.5:latest, Qwen3.5:4b และ Gemma4:12b โดยมี Open WebUI ทำหน้าที่เป็นหน้าเว็บแอปพลิเคชัน (UI) ในการอินเตอร์เฟสสนทนา ตอบคำถาม และช่วยเขียนโค้ดได้อย่างรวดเร็ว ปลอดภัย และเป็นส่วนตัว",
+    techStack: ["Ollama", "Open WebUI", "Docker", "Qwen 3.5", "Gemma 4", "Local LLM", "Windows"],
+    githubUrl: "https://github.com/adisornwongtip/AI_Local",
     featured: true,
   },
   {
     id: 2,
+    title: "Forex Multi-Agent AI Trading System",
+    description:
+      "ระบบ AI Trading อัจฉริยะแบบ 7 Agent ทำงานร่วมกัน วิเคราะห์ข้อมูลตลาดทางเทคนิค (Market Analysis), ตรวจสอบข่าวสารวิเคราะห์ Sentiment (News Sentiment), ส่งสัญญาณซื้อขาย (Signal), ควบคุมความเสี่ยง (Risk Management), ส่งคำสั่งซื้อขายอัตโนมัติผ่าน MetaTrader 5 (Execution) และแสดงผลสรุปรายงานกราฟต่างๆ ผ่าน Streamlit Dashboard",
+    techStack: ["Python", "LangGraph", "MetaTrader 5", "FinBERT", "Redis", "Streamlit", "Ollama", "OpenAI"],
+    githubUrl: "https://github.com/adisornwongtip/AutoTradingEA",
+    featured: true,
+  },
+  {
+    id: 3,
     title: "PDF Extract API",
     description:
       "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
@@ -365,7 +374,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Room Rental System (RRS)",
     description:
       "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
@@ -374,7 +383,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "Daily Task Management System",
     description:
       "เว็บแอปพลิเคชันสำหรับมอบหมายและติดตามงานประจำวันของทีมงาน พร้อมระบบลงชื่อเข้าใช้งาน (NextAuth) และระบบจัดการเก็บข้อมูลด้วยฐานข้อมูลผ่าน Prisma ORM",
