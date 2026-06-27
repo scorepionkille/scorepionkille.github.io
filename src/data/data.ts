@@ -86,8 +86,8 @@ export const personalInfo: PersonalInfo = {
   phone: "+66 65-968-3538",
   location: "Bangkok, Thailand",
   bio: "Full Stack Developer ประสบการณ์กว่า 3+ ปี มีความเชี่ยวชาญด้านการพัฒนา Web Application ชอบเรียนรู้เทคโนโลยีใหม่ๆ และแก้ปัญหาที่ซับซ้อน เน้นการเขียนโค้ดที่สะอาด มีประสิทธิภาพ และ maintainable พร้อมทำงานร่วมกับทีมเพื่อสร้างสรรค์ผลิตภัณฑ์ที่มีคุณภาพ และมีประสบการณ์ด้าน IT support ทั้งหมด 5 ปี",
-  avatarUrl: "/my-profile.jpg",
-  resumeUrl: "/CV_Adisorn_Wongtip.pdf",
+  avatarUrl: "my-profile.jpg",
+  resumeUrl: "CV_Adisorn_Wongtip.pdf",
   socials: [
     { name: "GitHub", url: "https://github.com/adisornwongtip", icon: "github" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/adisornwongtip/", icon: "linkedin" },
@@ -104,68 +104,132 @@ export const personalInfo: PersonalInfo = {
 export const experiences: Experience[] = [
   {
     id: 1,
-    company: "Caninnovation Co., Ltd.",
-    role: "Full Stack Developer",
-    period: "ม.ค. 2569 - ปัจจุบัน",
+    company: "บริษัท จัดหางาน 40 อาวเออร์ส (ประเทศไทย) จำกัด",
+    role: "Full Stack Developer (ปฏิบัติงานที่ SCGJWD)",
+    period: "ส.ค. 2567 - ปัจจุบัน",
     location: "Bangkok, Thailand",
-    description:
-      "รับผิดชอบการพัฒนาและดูแลระบบ E-Commerce Platform ขนาดใหญ่ที่รองรับผู้ใช้งานกว่า 100,000 คน \n" +
-      "ทำงานร่วมกับทีม 8 คน ในรูปแบบ Agile/Scrum",
+    description: "ปฏิบัติงานที่ SCGJWD พัฒนาระบบ ChemicalCenter และ WMS รวมถึงระบบ OCR และการเตรียมสภาพแวดล้อมระบบแบบ DevOps",
     achievements: [
-      "ออกแบบและพัฒนาระบบ Microservices ที่ลดเวลา response time 40%",
-      "นำทีมในการ Migrate ระบบจาก monolith เป็น microservices",
-      "สร้าง CI/CD pipeline ที่ลดเวลา deployment จาก 2 ชม. เหลือ 15 นาที",
-      "Mentor junior developers 3 คน ในทีม",
+      "พัฒนาระบบ ChemicalCenter เป็นระบบติดตามสินค้าและเอกสารของสินค้าสารเคมีในโรงเก็บสินค้าแบบ Realtime ที่สามารถตรวจเช็คสินค้า เข้า-ออก จากคลังได้ตลอดเวลา ช่วยอำนวยความสะดวกในการขายสินค้าให้กับลูกค้าได้อย่างรวดเร็ว",
+      "พัฒนาระบบ WMS ตรวจสอบแก้ไขปัญหาและ Optimization ส่วนของฟังก์ชันต่างๆ ให้ระบบมีความทันสมัย",
+      "พัฒนาระบบ Tesseract OCR เปรียบเทียบกับ Typhoon OCR ให้กับองค์กรและพัฒนาเป็น Service ให้แก่ลูกค้าได้ทดลองใช้งาน โดยรองรับการนำเอกสาร PDF มา Import เข้าระบบและนำไปใช้งานต่อได้อย่างรวดเร็ว",
+      "เรียนรู้การติดตั้งทางด้าน DevOps เพื่อติดตั้งระบบ OS สำหรับการใช้งาน UAT และ PROD โดยระบบที่ติดตั้งจะเป็น OS Ubuntu 22 เป็นแบบ On Cloud บน AWS EC2",
+      "เรียนรู้เทคโนโลยีใหม่ๆ และนำมาใช้งานจริง เช่น Claude Code, Codex, Antigravity, ChatGPT, Gemini",
+      "ทำระบบ Ollama Model AI มาใช้งานเองในเครื่อง Local"
     ],
-    techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS"],
+    techStack: ["PHP", "C#",
+      "HTML", "CSS", "JavaScript", "jQuery", "Ajax",
+      "SQL Server", "MySQL", "Bootstrap4,5", "TailwindCSS", "CodeIgniter3", "CodeIgniter4",
+      "React", "TypeScript", "RESTful API", "Node.js", "OCR", "Ubuntu", "AWS EC2", "Docker", ".NET 8, 10",
+      "Ollama AI"]
   },
   {
     id: 2,
-    company: "40 Hours Recruitment (Thailand) Co., Ltd.",
-    role: "Full Stack Developer",
-    period: "ส.ค. 2567 - ม.ค. 2569",
-    location: "Bangkok, Thailand",
-    description:
-      "พัฒนาระบบบริหารจัดการภายในองค์กร (ERP) และ Web Applications สำหรับลูกค้าหลากหลายอุตสาหกรรม",
-    achievements: [
-      "พัฒนาระบบบันทึกเวลาทํางานของฝายทรัพยากรบุคคล พร้อมระบบนําเข้าข้อมูลไปยัง Excel โดยอัตโนมัติ เพือการจัดการข้อมูลแบบรวมศูนย์",
-      "ออกแบบและใช้งานระบบแบ็กเอนด์สําหรับการประมวลผลและจัดเก็บข้อมูลพนักงาน",
-      "พัฒนาระบบจัดการคลังสินค้า (WMS) สําหรับการติดตามและจัดการสินค้าคงคลัง",
-      "สร้างระบบติดตามตําแหน่งสินค้าแบบเรียลไทม์ภายในคลังสินค้า",
-      "ใช้งานฟเจอร์สําหรับการจัดการเอกสารการรับและส่งสินค้า (ขาเข้า/ขาออก)",
-    ],
-    techStack: ["React", "Express.js", "MongoDB", "Redis", "Docker"],
-  },
-  {
-    id: 3,
     company: "บริษัท สโตนเฮ้นจ์ อินเตอร์ จำกัด (มหาชน)",
     role: "Junior Full Stack Developer",
     period: "ก.พ. 2566 - ส.ค. 2567",
     location: "Bangkok, Thailand",
-    description:
-      "พัฒนาระบบภายในองค์กรและออกแบบเว็บไซต์ตามที่ได้รับมอบหมาย",
+    description: "พัฒนาระบบภายในองค์กรและออกแบบเว็บไซต์ รวมถึงระบบ E-Commerce และ RESTful API",
     achievements: [
-      "พัฒนาระบบบันทึกเวลาทำงานของฝ่ายทรัพยากรบุคคล พร้อมระบบนำเข้าข้อมูลไปยัง Excel โดยอัตโนมัติ เพื่อการจัดการข้อมูลแบบรวมศูนย์",
-      "Optimization ระบบ E-Procurement ทำให้การ",
-      "พัฒนาระบบสื่อออนไลน์สำหรับบริษัท และเว็บไซต์ E-Commerce ของบริษัท",
+      "พัฒนาระบบ ERP ขององค์กรในทุกมิติ เพื่อให้บุคลากรใช้งานได้สะดวกที่สุดต่อการใช้งาน",
+      "พัฒนาระบบสำหรับ Import Excel เพื่อบันทึกข้อมูลลงในระบบแบบอัตโนมัติ",
+      "พัฒนาระบบ E-Commerce ภายในองค์กรสำหรับเป็นบริการภายในบริษัท เช่น การเช่าซื้อสินค้า ขายสินค้า เป็นต้น เพื่อเป็นสิทธิ์ให้กับพนักงาน",
+      "พัฒนาระบบ RESTful API ให้การสนับสนุนการแลกเปลี่ยนข้อมูล เพื่อการสื่อสารระหว่างซอฟต์แวร์ที่ปลอดภัย เสถียร และมีประสิทธิภาพ เพื่อนำมาใช้งานในส่วนของ App Mobile ของบริษัท"
     ],
-    techStack: ["HTML/CSS", "JavaScript", "Bootstrap 4", "PHP", "MySQL"],
+    techStack: ["HTML/CSS", "JavaScript", "PHP", "Ajax", "jQuery", "Bootstrap4,5", "MySQL", "RESTful API", "mPDF", "Excel Import"]
+  },
+  {
+    id: 3,
+    company: "บริษัท ไซเบอร์ อีลิท จำกัด",
+    role: "Security Operations Center (SOC)",
+    period: "ต.ค. 2565 - ม.ค. 2566",
+    location: "Bangkok, Thailand",
+    description: "ตรวจสอบ วิเคราะห์ข้อมูล และกิจกรรมบนระบบเครือข่าย เพื่อเฝ้าระวังและตรวจจับการละเมิดความปลอดภัย",
+    achievements: [
+      "ตรวจสอบและวิเคราะห์ข้อมูลและกิจกรรมบนระบบเครือข่าย",
+      "ควบคุมระบบคอมพิวเตอร์เพื่อตรวจจับการละเมิดความปลอดภัยภายในระบบ",
+      "จัดทำรายงานวิเคราะห์และแจ้งเหตุต่างๆ ในระบบ"
+    ],
+    techStack: ["Network Security", "Cyber Security", "Log Analysis", "SOC", "SIEM"]
   },
   {
     id: 4,
-    company: "Cyber Elite co. ltd",
-    role: "(SOC)Security Operations Center",
-    period: "ต.ค. 2565 - ม.ค. 2566",
+    company: "บริษัท แซปบีไอทีโซลูชั่นส์ จำกัด",
+    role: "บริหาร และ ดูแลเทคโนโลยี",
+    period: "ต.ค. 2563 - ม.ค. 2566",
     location: "Bangkok, Thailand",
-    description:
-      "ตรวจสอบและวิเคราะห์ข้อมูลและกิจกรรมบนระบบเครือข่ายและระบบคอมพิวเตอร์เพื่อตรวจจับการละเมิดความปลอดภัยการจัดทํารายงาน และแจ้งเหตุต่างๆใน ระบบ",
+    description: "บริหารจัดการด้านเทคโนโลยีและการติดตั้งอุปกรณ์อิเล็กทรอนิกส์และจอ LED ให้กับภาครัฐและเอกชน",
     achievements: [
-      "พัฒนา Landing pages ที่เพิ่ม conversion rate 25%",
-      "สร้างระบบ Quiz และ Assessment online",
-      "ร่วมพัฒนาระบบ Video streaming สำหรับคอร์สเรียน",
+      "ดำเนินกิจการค้า นำเข้า ส่งออก ซื้อ จำหน่าย ให้บริการติดตั้ง ซ่อมบำรุง ป้ายโฆษณาอิเล็กทรอนิกส์ โดยเน้นการซ่อมบำรุงจอ LED เป็นหลัก",
+      "บริหารบุคลากร จัดสรรงบประมาณ และตรวจเช็คบัญชีของทีม",
+      "พัฒนาระบบคลังสินค้าภายในระบบบริษัท"
     ],
-    techStack: ["HTML/CSS", "JavaScript", "Vue.js", "PHP", "MySQL"],
+    techStack: ["LED Display", "IT Management", "Inventory Management", "Budgeting"]
   },
+  {
+    id: 5,
+    company: "บริษัท ชอปปิ้งพีซี ดอทเน็ต จำกัด",
+    role: "IT Support",
+    period: "ก.พ. 2561 - ก.ย. 2563",
+    location: "Bangkok, Thailand",
+    description: "ให้บริการซัพพอร์ตระบบไอที ดูแลรักษาฮาร์ดแวร์ ซอฟต์แวร์ และระบบเครือข่ายสำหรับพนักงานและลูกค้า",
+    achievements: [
+      "ตรวจสอบอาการเสียของอุปกรณ์อิเล็กทรอนิกส์ต่างๆ เช่น Computer, Notebook, เครื่อง Server, จอ LED ขนาดใหญ่-ขนาดเล็ก, ป้าย LED ไฟวิ่ง, TV Wall และอุปกรณ์ภายในองค์กร",
+      "ลง Software ต่างๆ ให้กับลูกค้า เช่น ลง Windows 7, 8, 10 32/64bit, Driver, Photoshop, Microsoft Office และอื่นๆ ตามที่ได้รับมอบหมาย",
+      "แก้ไขปัญหาและดูแลอุปกรณ์ภายในองค์กร เช่น Computer, Printer, ระบบ LAN และแก้ไขระบบ Network เบื้องต้น",
+      "แจ้งสั่งซื้ออุปกรณ์หรือเปลี่ยนชิ้นส่วนอุปกรณ์ที่ได้รับมอบหมาย",
+      "ให้บริการลูกค้านอกสถานที่ (On-site Service) หรือช่วยเหลือระยะไกลผ่าน TeamViewer"
+    ],
+    techStack: ["Windows OS", "Hardware Troubleshooting", "Network Maintenance", "On-site Service", "TeamViewer"]
+  },
+  {
+    id: 6,
+    company: "บริษัท เอเธนส์ คอมมิวนิเคชั่น จำกัด",
+    role: "IT Support",
+    period: "ก.พ. 2559 - ม.ค. 2561",
+    location: "Bangkok, Thailand",
+    description: "ดูแลบำรุงรักษาคอมพิวเตอร์และระบบไอที พร้อมให้บริการซัพพอร์ตและแก้ไขปัญหาระบบเครือข่าย",
+    achievements: [
+      "ตรวจสอบอาการเสียของอุปกรณ์อิเล็กทรอนิกส์ต่างๆ เช่น Computer, Notebook, เครื่อง Server, TV Wall และอุปกรณ์ภายในองค์กร",
+      "ลง Software ต่างๆ ให้กับลูกค้า เช่น ลง Windows 7, 8, 10 32/64bit, Driver, Photoshop, Microsoft Office และอื่นๆ ตามที่ได้รับมอบหมาย",
+      "แก้ไขปัญหาและดูแลอุปกรณ์ภายในองค์กร เช่น Computer, Printer, ระบบ LAN และแก้ไขระบบ Network เบื้องต้น",
+      "แจ้งสั่งซื้ออุปกรณ์หรือเปลี่ยนชิ้นส่วนอุปกรณ์ที่ได้รับมอบหมาย",
+      "ให้บริการลูกค้านอกสถานที่ (On-site Service) หรือช่วยเหลือระยะไกลผ่าน TeamViewer"
+    ],
+    techStack: ["Windows OS", "Hardware Maintenance", "Network Troubleshooting", "On-site Service", "TeamViewer"]
+  },
+  {
+    id: 7,
+    company: "บริษัท พรีโม ฟู้ด แอนด์ เบฟเวอเรจ จำกัด",
+    role: "Barista",
+    period: "ม.ค. 2558 - ม.ค. 2559",
+    location: "Bangkok, Thailand",
+    description: "ดูแลบริการลูกค้า บริหารสต๊อกสินค้า และการสรุปยอดขายรายงานประจำวัน",
+    achievements: [
+      "ต้อนรับและให้บริการลูกค้าในการเตรียมเครื่องดื่มและอาหาร",
+      "บริหารสินค้า, การสั่งสินค้าเข้าสต๊อกสินค้า, และการส่งคืนสินค้าที่ไม่ตรงตามมาตรฐาน",
+      "ดูแลรักษาความเรียบร้อยและสะอาดเรียบร้อยภายในร้าน",
+      "จัดทำเอกสารและรายงานส่งยอดขายประจำวันเข้าบริษัท",
+      "จัดตารางเวลาทำงานและการแบ่งกะเวลาเข้า-ออกของพนักงาน"
+    ],
+    techStack: ["Customer Service", "Inventory Management", "POS Systems", "Scheduling"]
+  },
+  {
+    id: 8,
+    company: "บริษัท ดิ โอโร่ จำกัด",
+    role: "Barista",
+    period: "ม.ค. 2557 - ธ.ค. 2557",
+    location: "Bangkok, Thailand",
+    description: "ให้บริการและต้อนรับลูกค้า จัดเตรียมเครื่องดื่ม พร้อมบริหารจัดการสต๊อกและการสลับกะพนักงาน",
+    achievements: [
+      "ต้อนรับและให้บริการลูกค้าในการเตรียมเครื่องดื่มและอาหาร",
+      "บริหารสินค้า, การสั่งสินค้าเข้าสต๊อกสินค้า, และการส่งคืนสินค้าที่ไม่ตรงตามมาตรฐาน",
+      "ดูแลรักษาความเรียบร้อยและสะอาดเรียบร้อยภายในร้าน",
+      "จัดทำเอกสารและรายงานส่งยอดขายประจำวันเข้าบริษัท",
+      "จัดตารางเวลาทำงานและการแบ่งกะเวลาเข้า-ออกของพนักงาน"
+    ],
+    techStack: ["Customer Service", "Inventory Control", "POS Systems", "Daily Reporting"]
+  }
 ];
 
 export const education: Education[] = [
