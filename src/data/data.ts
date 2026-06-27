@@ -351,6 +351,7 @@ export const projects: Project[] = [
     title: "Local AI Ollama & Open WebUI Setup",
     description:
       "การจัดสภาพแวดล้อมและติดตั้งระบบปัญญาประดิษฐ์ใช้งานเองภายในเครื่องแบบ Local (Local LLM) ด้วย Ollama โดยมีการทดสอบรันและเรียกใช้งานโมเดลยอดนิยม เช่น Qwen3.5:latest, Qwen3.5:4b และ Gemma4:12b โดยมี Open WebUI ทำหน้าที่เป็นหน้าเว็บแอปพลิเคชัน (UI) ในการอินเตอร์เฟสสนทนา ตอบคำถาม และช่วยเขียนโค้ดได้อย่างรวดเร็ว ปลอดภัย และเป็นส่วนตัว",
+    image: "AI_Local.png",
     techStack: ["Ollama", "Open WebUI", "Docker", "Qwen 3.5", "Gemma 4", "Local LLM", "Windows"],
     githubUrl: "https://github.com/adisornwongtip/AI_Local",
     featured: true,
@@ -360,6 +361,7 @@ export const projects: Project[] = [
     title: "Forex Multi-Agent AI Trading System",
     description:
       "ระบบ AI Trading อัจฉริยะแบบ 7 Agent ทำงานร่วมกัน วิเคราะห์ข้อมูลตลาดทางเทคนิค (Market Analysis), ตรวจสอบข่าวสารวิเคราะห์ Sentiment (News Sentiment), ส่งสัญญาณซื้อขาย (Signal), ควบคุมความเสี่ยง (Risk Management), ส่งคำสั่งซื้อขายอัตโนมัติผ่าน MetaTrader 5 (Execution) และแสดงผลสรุปรายงานกราฟต่างๆ ผ่าน Streamlit Dashboard",
+    image: "Forex.png",
     techStack: ["Python", "LangGraph", "MetaTrader 5", "FinBERT", "Redis", "Streamlit", "Ollama", "OpenAI"],
     githubUrl: "https://github.com/adisornwongtip/AutoTradingEA",
     featured: true,
@@ -378,6 +380,7 @@ export const projects: Project[] = [
     title: "Room Rental System (RRS)",
     description:
       "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
+    image: "RRS.png",
     techStack: ["Next.js 14", "ASP.NET Core 8", "Entity Framework", "SQL Server", "LINE Messaging API", "Tailwind CSS"],
     githubUrl: "https://github.com/adisornwongtip/roomrentalsystem",
     featured: true,
