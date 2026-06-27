@@ -172,6 +172,16 @@ export default function Projects() {
                     </a>
                   )}
                 </div>
+
+                {project.note && (
+                  <p
+                    className="text-xs mt-3 flex items-start gap-1"
+                    style={{ color: "var(--text-secondary)", opacity: 0.8 }}
+                  >
+                    <span style={{ color: "#e1b12c" }}>⚠️</span>
+                    <span>{project.note}</span>
+                  </p>
+                )}
               </div>
             </div>
           ))}

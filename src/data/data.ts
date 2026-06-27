@@ -73,6 +73,7 @@ export interface Project {
   liveUrl?: string;
   githubUrl?: string;
   featured?: boolean;
+  note?: string;
 }
 
 // --- Mock Data ---
@@ -353,8 +354,10 @@ export const projects: Project[] = [
       "การจัดสภาพแวดล้อมและติดตั้งระบบปัญญาประดิษฐ์ใช้งานเองภายในเครื่องแบบ Local (Local LLM) ด้วย Ollama โดยมีการทดสอบรันและเรียกใช้งานโมเดลยอดนิยม เช่น Qwen3.5:latest, Qwen3.5:4b และ Gemma4:12b โดยมี Open WebUI ทำหน้าที่เป็นหน้าเว็บแอปพลิเคชัน (UI) ในการอินเตอร์เฟสสนทนา ตอบคำถาม และช่วยเขียนโค้ดได้อย่างรวดเร็ว ปลอดภัย และเป็นส่วนตัว",
     image: "AI_Local.png",
     techStack: ["Ollama", "Open WebUI", "Docker", "Qwen 3.5", "Gemma 4", "Local LLM", "Windows"],
+    liveUrl: "https://zus-hindu-reached-located.trycloudflare.com/",
     githubUrl: "https://github.com/adisornwongtip/AI_Local",
     featured: true,
+    note: "หากใช้งานลิงก์ไม่ได้ รบกวนแจ้งเตือนเนื่องจากอาจจะหลุดจากการ Run Public โดย Cloudflare tunnel",
   },
   {
     id: 2,
@@ -365,6 +368,7 @@ export const projects: Project[] = [
     techStack: ["Python", "LangGraph", "MetaTrader 5", "FinBERT", "Redis", "Streamlit", "Ollama", "OpenAI"],
     githubUrl: "https://github.com/adisornwongtip/AutoTradingEA",
     featured: true,
+    note: "รบกวนแจ้งเตือน เนื่องจากระบบมีความเสี่ยงสูงที่จะเกิดการขาดทุน และแนะนำให้ทดลองใช้งานในระบบ Demo ก่อน",
   },
   {
     id: 3,
@@ -384,6 +388,7 @@ export const projects: Project[] = [
     techStack: ["Next.js 14", "ASP.NET Core 8", "Entity Framework", "SQL Server", "LINE Messaging API", "Tailwind CSS"],
     githubUrl: "https://github.com/adisornwongtip/roomrentalsystem",
     featured: true,
+    note: "ระบบนี้อยู่ในช่วงพัฒนาต่อยอดจากตัวเดิม",
   },
   {
     id: 5,
