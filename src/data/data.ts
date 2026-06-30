@@ -381,15 +381,6 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "PDF Extract API",
-    description:
-      "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
-    techStack: ["ASP.NET Core", ".NET 10", "React 19", "TypeScript", "Vite", "SQLite", "OpenAI GPT-4o", "Google Gemini 2.5 Flash", "Docker"],
-    githubUrl: "https://github.com/adisornwongtip/PDFAutoToAPI",
-    featured: true,
-  },
-  {
-    id: 5,
     title: "Room Rental System (RRS)",
     description:
       "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
@@ -398,6 +389,15 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/adisornwongtip/roomrentalsystem",
     featured: true,
     note: "ระบบนี้อยู่ในช่วงพัฒนาต่อยอดจากตัวเดิม",
+  },
+  {
+    id: 5,
+    title: "PDF Extract API",
+    description:
+      "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
+    techStack: ["ASP.NET Core", ".NET 10", "React 19", "TypeScript", "Vite", "SQLite", "OpenAI GPT-4o", "Google Gemini 2.5 Flash", "Docker"],
+    githubUrl: "https://github.com/adisornwongtip/PDFAutoToAPI",
+    featured: true,
   },
   {
     id: 6,
