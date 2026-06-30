@@ -372,11 +372,11 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "PDF Extract API",
-    description:
-      "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
-    techStack: ["ASP.NET Core", ".NET 10", "React 19", "TypeScript", "Vite", "SQLite", "OpenAI GPT-4o", "Google Gemini 2.5 Flash", "Docker"],
-    githubUrl: "https://github.com/adisornwongtip/PDFAutoToAPI",
+    title: "PDF to JSON",
+    description: "ระบบแปลงไฟล์ PDF เป็น JSON โดยใช้ AI ในการดึงข้อมูลโครงสร้างจากเอกสาร PDF และแปลงเป็น JSON โดยอัตโนมัติ",
+    image: "PDFtoJSON.png",
+    techStack: ["ASP.NET Core", ".NET 10", "Ollama", "Gemma4:12b"],
+    githubUrl: "https://github.com/adisornwongtip/PDFtoJSON",
     featured: true,
   },
   {
