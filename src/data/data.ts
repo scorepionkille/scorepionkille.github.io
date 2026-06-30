@@ -354,7 +354,7 @@ export const projects: Project[] = [
       "การจัดสภาพแวดล้อมและติดตั้งระบบปัญญาประดิษฐ์ใช้งานเองภายในเครื่องแบบ Local (Local LLM) ด้วย Ollama โดยมีการทดสอบรันและเรียกใช้งานโมเดลยอดนิยม เช่น Qwen3.5:latest, Qwen3.5:4b และ Gemma4:12b โดยมี Open WebUI ทำหน้าที่เป็นหน้าเว็บแอปพลิเคชัน (UI) ในการอินเตอร์เฟสสนทนา ตอบคำถาม และช่วยเขียนโค้ดได้อย่างรวดเร็ว ปลอดภัย และเป็นส่วนตัว",
     image: "AI_Local.png",
     techStack: ["Ollama", "Open WebUI", "Docker", "Qwen 3.5", "Gemma 4", "Local LLM", "Windows"],
-    liveUrl: "https://zus-hindu-reached-located.trycloudflare.com/",
+    liveUrl: "https://cardiac-angeles-historic-finals.trycloudflare.com",
     githubUrl: "https://github.com/adisornwongtip/AI_Local",
     featured: true,
     note: "หากใช้งานลิงก์ไม่ได้ รบกวนแจ้งเตือนเนื่องจากอาจจะหลุดจากการ Run Public โดย Cloudflare tunnel",
@@ -381,6 +381,15 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "PDF Extract API",
+    description:
+      "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
+    techStack: ["ASP.NET Core", ".NET 10", "React 19", "TypeScript", "Vite", "SQLite", "OpenAI GPT-4o", "Google Gemini 2.5 Flash", "Docker"],
+    githubUrl: "https://github.com/adisornwongtip/PDFAutoToAPI",
+    featured: true,
+  },
+  {
+    id: 5,
     title: "Room Rental System (RRS)",
     description:
       "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
@@ -391,7 +400,7 @@ export const projects: Project[] = [
     note: "ระบบนี้อยู่ในช่วงพัฒนาต่อยอดจากตัวเดิม",
   },
   {
-    id: 5,
+    id: 6,
     title: "Daily Task Management System",
     description:
       "เว็บแอปพลิเคชันสำหรับมอบหมายและติดตามงานประจำวันของทีมงาน พร้อมระบบลงชื่อเข้าใช้งาน (NextAuth) และระบบจัดการเก็บข้อมูลด้วยฐานข้อมูลผ่าน Prisma ORM",
