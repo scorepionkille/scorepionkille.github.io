@@ -381,6 +381,33 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Chemical Center",
+    description:
+      "เป็นระบบคลังสินค้า สารเคมี หน้าที่หลักคือ บอกรายละเอียดที่อยู่ของสารเคมีที่อยู่ในคลังสินค้าว่าอยู่ส่วนไหนของคลัง เอกสารที่เกี่ยวข้องกับตัวกับสารเคมี แจ้งอีเมล์เมื่อสินค้าสารเคมีที่ระบุไว้เข้าคลัง",
+    techStack: ["PHP", "CI3", "CI4", "SQL Server", "Bootstrap 4", "Bootstrap 5", "Tailwind CSS", "JavaScript", "JQuery", "AJAX", "JSON", "CSS", "HTML", "Email Notification"],
+    featured: true,
+    note: "",
+  },
+  {
+    id: 5,
+    title: "Track Weight",
+    description:
+      "เป็นระบบเครื่องชั่งน้ำหนักสำหรับรถบรรทุก เป็นก่อนเข้าคลังและออกจากคลังสินค้า โดนเป็นระบบลงทะเบียนออนไลน์",
+    techStack: ["PHP", "CI3", "CI4", "SQL Server", "JavaScript", "JQuery", "AJAX", "JSON", "API"],
+    featured: true,
+    note: "",
+  },
+  {
+    id: 6,
+    title: "WMS Feature Billing(OCR)",
+    description:
+      "สำหรับพํฒนาระบบ OCR สำหรับ import ข้อมูลไฟล์ PDF เข้าสู่ระบบ",
+    techStack: ["PHP", "CI3", "CI4", "SQL Server", "JavaScript", "JQuery", "AJAX", "JSON", "API", "Node.js", "Tesseract.js", "OCR"],
+    featured: true,
+    note: "",
+  },
+  {
+    id: 7,
     title: "Room Rental System (RRS)",
     description:
       "ระบบบริหารจัดการหอพักและห้องเช่าครบวงจร สำหรับผู้ดูแลระบบในการจัดการห้องพัก บันทึกข้อมูลผู้เช่า คำนวณค่าน้ำ-ค่าไฟ ออกใบแจ้งหนี้รายเดือน พร้อมระบบส่งการแจ้งเตือนยอดชำระเงินตรงเข้าห้องแชทหรือกลุ่ม LINE ของผู้เช่าอัตโนมัติผ่าน LINE Messaging API",
@@ -391,7 +418,7 @@ export const projects: Project[] = [
     note: "ระบบนี้อยู่ในช่วงพัฒนาต่อยอดจากตัวเดิม",
   },
   {
-    id: 5,
+    id: 8,
     title: "PDF Extract API",
     description:
       "แพลตฟอร์ม SaaS สำหรับสแกนและดึงข้อมูลโครงสร้างจากเอกสาร PDF (เช่น ใบเสร็จ ใบแจ้งหนี้ ใบส่งของ) ด้วย AI โดยรองรับการประมวลผลเบื้องหลังด้วย Background Queue, มีระบบ API Key สำหรับนักพัฒนาภายนอก, ระบบจัดการและจำกัดโควต้าตัดเครดิตการใช้งาน และหน้าแดชบอร์ดสรุปสถิติพร้อมข้อมูลกราฟแบบเรียลไทม์",
@@ -400,7 +427,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 6,
+    id: 9,
     title: "Daily Task Management System",
     description:
       "เว็บแอปพลิเคชันสำหรับมอบหมายและติดตามงานประจำวันของทีมงาน พร้อมระบบลงชื่อเข้าใช้งาน (NextAuth) และระบบจัดการเก็บข้อมูลด้วยฐานข้อมูลผ่าน Prisma ORM",
