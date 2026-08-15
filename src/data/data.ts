@@ -124,7 +124,7 @@ export const experiences: Experience[] = [
     id: 2,
     company: "บริษัท จัดหางาน 40 อาวเออร์ส (ประเทศไทย) จำกัด",
     role: "Full Stack Developer (ปฏิบัติงานที่ SCGJWD)",
-    period: "ส.ค. 2567 - ปัจจุบัน",
+    period: "ส.ค. 2567 - ธ.ค. 2568",
     location: "Bangkok, Thailand",
     description: "ปฏิบัติงานที่ SCGJWD พัฒนาระบบ ChemicalCenter และ WMS รวมถึงระบบ OCR และการเตรียมสภาพแวดล้อมระบบแบบ DevOps",
     achievements: [
