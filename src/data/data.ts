@@ -105,6 +105,23 @@ export const personalInfo: PersonalInfo = {
 export const experiences: Experience[] = [
   {
     id: 1,
+    company: "บริษัท แคน อินโนเวชั่น จำกัด",
+    role: "Back-End Developer",
+    period: "ม.ค. 2569 - ปัจจุบัน",
+    location: "Bangkok, Thailand",
+    description: "ดูแล และ พัฒนาระบบภายในของบริษัท",
+    achievements: [
+      "พัฒนา Serice Center สำหรับ CRUD ให้กับระบบ เครื่อง POS ของบริษัท, CRM , ระบบเว็บไซต์ , B2B , B2C , E-learning และ ERP",
+      "เส้น API ต่างๆ Email OTP, Send Line, Send PDF Line",
+      "ปรับปรุง Query ที่ทำงานช้าให้มีความเสถียรมากขึ้น"
+    ],
+    techStack: ["C#",
+      "HTML", "CSS", "JavaScript", "jQuery", "Ajax",
+      "SQL Server", "Bootstrap4,5", "TailwindCSS", "TypeScript", "RESTful API", "Node.js", "ASP.NET", ".NET 8, 10",
+      "Ollama AI", "Codex", "Antigravity", "ChatGPT", "Gemini", "Azure"]
+  },
+  {
+    id: 2,
     company: "บริษัท จัดหางาน 40 อาวเออร์ส (ประเทศไทย) จำกัด",
     role: "Full Stack Developer (ปฏิบัติงานที่ SCGJWD)",
     period: "ส.ค. 2567 - ปัจจุบัน",
@@ -125,7 +142,7 @@ export const experiences: Experience[] = [
       "Ollama AI"]
   },
   {
-    id: 2,
+    id: 3,
     company: "บริษัท สโตนเฮ้นจ์ อินเตอร์ จำกัด (มหาชน)",
     role: "Junior Full Stack Developer",
     period: "ก.พ. 2566 - ส.ค. 2567",
@@ -140,7 +157,7 @@ export const experiences: Experience[] = [
     techStack: ["HTML/CSS", "JavaScript", "PHP", "Ajax", "jQuery", "Bootstrap4,5", "MySQL", "RESTful API", "mPDF", "Excel Import"]
   },
   {
-    id: 3,
+    id: 4,
     company: "บริษัท ไซเบอร์ อีลิท จำกัด",
     role: "Security Operations Center (SOC)",
     period: "ต.ค. 2565 - ม.ค. 2566",
@@ -154,7 +171,7 @@ export const experiences: Experience[] = [
     techStack: ["Network Security", "Cyber Security", "Log Analysis", "SOC", "SIEM"]
   },
   {
-    id: 4,
+    id: 5,
     company: "บริษัท แซปบีไอทีโซลูชั่นส์ จำกัด",
     role: "บริหาร และ ดูแลด้านเทคโนโลยี",
     period: "ต.ค. 2563 - ม.ค. 2566",
@@ -171,7 +188,7 @@ export const experiences: Experience[] = [
       "HTML", "CSS", "JavaScript", "jQuery", "Ajax", "Bootstrap4,5", "MySQL", "Facebook Page"]
   },
   {
-    id: 5,
+    id: 6,
     company: "บริษัท ชอปปิ้งพีซี ดอทเน็ต จำกัด",
     role: "IT Support",
     period: "ก.พ. 2561 - ก.ย. 2563",
@@ -187,7 +204,7 @@ export const experiences: Experience[] = [
     techStack: ["Windows OS", "Hardware Troubleshooting", "Network Maintenance", "On-site Service", "TeamViewer"]
   },
   {
-    id: 6,
+    id: 7,
     company: "บริษัท เอเธนส์ คอมมิวนิเคชั่น จำกัด",
     role: "IT Support",
     period: "ก.พ. 2559 - ม.ค. 2561",
@@ -203,7 +220,7 @@ export const experiences: Experience[] = [
     techStack: ["Windows OS", "Hardware Maintenance", "Network Troubleshooting", "On-site Service", "TeamViewer"]
   },
   {
-    id: 7,
+    id: 8,
     company: "บริษัท พรีโม ฟู้ด แอนด์ เบฟเวอเรจ จำกัด",
     role: "Barista",
     period: "ม.ค. 2558 - ม.ค. 2559",
@@ -219,7 +236,7 @@ export const experiences: Experience[] = [
     techStack: ["Customer Service", "Inventory Management", "POS Systems", "Scheduling"]
   },
   {
-    id: 8,
+    id: 9,
     company: "บริษัท ดิ โอโร่ จำกัด",
     role: "Barista",
     period: "ม.ค. 2557 - ธ.ค. 2557",
@@ -354,7 +371,7 @@ export const projects: Project[] = [
       "การจัดสภาพแวดล้อมและติดตั้งระบบปัญญาประดิษฐ์ใช้งานเองภายในเครื่องแบบ Local (Local LLM) ด้วย Ollama โดยมีการทดสอบรันและเรียกใช้งานโมเดลยอดนิยม เช่น Qwen3.5:latest, Qwen3.5:4b และ Gemma4:12b โดยมี Open WebUI ทำหน้าที่เป็นหน้าเว็บแอปพลิเคชัน (UI) ในการอินเตอร์เฟสสนทนา ตอบคำถาม และช่วยเขียนโค้ดได้อย่างรวดเร็ว ปลอดภัย และเป็นส่วนตัว",
     image: "AI_Local.png",
     techStack: ["Ollama", "Open WebUI", "Docker", "Qwen 3.5", "Gemma 4", "Local LLM", "Windows"],
-    liveUrl: "https://cardiac-angeles-historic-finals.trycloudflare.com",
+    liveUrl: "https://trackback-boutique-arrival-facilities.trycloudflare.com",
     githubUrl: "https://github.com/adisornwongtip/AI_Local",
     featured: true,
     note: "หากใช้งานลิงก์ไม่ได้ รบกวนแจ้งเตือนเนื่องจากอาจจะหลุดจากการ Run Public โดย Cloudflare tunnel",
